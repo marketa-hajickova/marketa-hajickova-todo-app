@@ -28,7 +28,8 @@ public class removeTask {
             } else if (Integer.parseInt(args[1]) >= lines.size()) {
               System.out.println("Unable to remove: index is out of bound");
             } else {
-              Files.readAllLines(path).clear();
+              //Files.readAllLines(path).clear();
+              //this does not work, need to fix or find another solution
               lines.remove(args[1]);
               System.out.println("Task " + args[1] + " have been removed");
 
