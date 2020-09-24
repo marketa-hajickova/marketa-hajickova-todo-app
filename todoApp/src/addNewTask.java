@@ -9,6 +9,7 @@ import java.util.List;
 
 public class addNewTask {
   public static void main(String[] args) {
+    //error handling
     if (args.length < 2) {
       System.out.println("Unable to add: no task provided or no valid argument");
       return;
